@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="Weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <h1 class="location">The Weather</h1>
+            <div class="weather-details">
+                <div class="temp">
+                    <span class="degree">16</span>°<span class="city">London</span>
+                    <img class="icon" src="http://openweathermap.org/img/wn/01d.png" alt="Weather Icon">
+                </div>
+                <div class="details">
+                    <p class="date-time">04:50 - Monday Aug 12</p>
+                    <p class="weather-type">clear sky</p>
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" id="searchBox" placeholder="Search location...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <div id="errorNotification" style="display:none; color:red; margin-top:20px;">Location not found. Please try again.</div>
+        <div class="info">
+            <h2>Weather Details</h2>
+            <p>Cloudy: <span id="cloudy">89%</span></p>
+            <p>Humidity: <span id="humidity">64%</span></p>
+            <p>Wind: <span id="wind">8km/h</span></p>
+        </div>
+    </div>
+
+    <script src="Weather.js"></script>
+</body>
+</html>

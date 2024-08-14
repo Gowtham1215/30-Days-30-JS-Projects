@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('https://cdn.shopify.com/s/files/1/0642/0548/8304/files/beautiful-skyscape-daytime.jpg?v=1723466013') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.weather {
+    text-align: left;
+}
+
+.location {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.temp {
+    display: flex;
+    align-items: center;
+    font-size: 64px;
+}
+
+.degree {
+    font-size: 128px;
+}
+
+.city {
+    margin-left: 10px;
+    font-size: 48px;
+}
+
+.icon {
+    width: 64px;
+    height: 64px;
+    margin-left: 20px;
+}
+
+.details {
+    text-align: right;
+}
+
+.date-time, .weather-type {
+    font-size: 24px;
+}
+
+.search {
+    margin: 20px 0;
+    display: flex;
+}
+
+#searchBox {
+    background: none;
+    border: none;
+    border-bottom: 1px white solid;
+    width: 100%;
+    padding: 0 1em 0.5em 0;
+    font-size: 18px;
+    color: #fff;
+}
+
+#searchBox:focus{
+    outline: none;
+}
+
+#searchBox::placeholder{
+    color: #fff;
+    font-size: 1.2em;
+}
+
+#searchBtn {
+    padding: 1.4em;
+    margin: 0;
+    border: none;
+    outline: none;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: 0.4s;
+    border-radius: 5px 5px 5px 5px;
+}
+
+#searchBtn:hover{
+    background-color: darkorange !important;
+    color: white;
+}
+
+#searchBtn i {
+    font-size: 20px;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .weather-details {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .temp {
+        font-size: 48px;
+    }
+
+    .degree {
+        font-size: 96px;
+    }
+
+    .city {
+        font-size: 36px;
+    }
+
+    .icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .details {
+        text-align: left;
+    }
+
+    .date-time, .weather-type {
+        font-size: 18px;
+    }
+}
