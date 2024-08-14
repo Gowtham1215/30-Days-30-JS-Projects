@@ -57,3 +57,9 @@ If the entered location is not found, an error message will be displayed. Make s
 - Background Images: Sourced from various photographers on Unsplash.
 - Icons: FontAwesome.
 - API: OpenWeatherMap.
+
+##Important Notes
+
+Replace `{Your Api Key}` in the JavaScript code with your actual API key obtained from the OpenWeatherMap API:
+```javascript
+const apiKey = '{Your Api Key}'; // Replace with your actual API key
