@@ -57,7 +57,3 @@ If the entered location is not found, an error message will be displayed. Make s
 - Background Images: Sourced from various photographers on Unsplash.
 - Icons: FontAwesome.
 - API: OpenWeatherMap.
-  
-##License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
