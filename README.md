@@ -28,27 +28,36 @@ This Weather Application provides real-time weather information for cities aroun
    git clone https://github.com/Gowtham1215/30-Days-30-JS-Projects.git
    cd 30-Days-30-JS-Projects
    
-Open index.html:
+2. **Open index.html:**
+   
 Open the index.html file in your web browser.
 
-Search for a Location:
+3. **Search for a Location:**
+   
 Enter a city name (e.g., "London") in the search bar and click the search icon. The application will display the current weather for the specified location.
 
-View Weather Details:
+4. **View Weather Details:**
+ 
+-**Temperature:** Displayed in degrees Celsius.
+-**Weather Type:** Shows the general weather condition (e.g., clear sky, rain).
+-**Additional Details:** Cloudiness, humidity, and wind speed are also displayed.
 
-Temperature: Displayed in degrees Celsius.
-Weather Type: Shows the general weather condition (e.g., clear sky, rain).
-Additional Details: Cloudiness, humidity, and wind speed are also displayed.
-Error Handling:
+5. **Error Handling:**
+   
 If the entered location is not found, an error message will be displayed. Make sure to enter a valid city name.
 
-Future Enhancements
-Auto-Complete Feature: Suggest cities as the user types in the search bar.
-Extended Forecast: Display a 5-day weather forecast.
-Geolocation: Automatically detect the user's location and display the weather.
-Credits
-Background Images: Sourced from various photographers on Unsplash.
-Icons: FontAwesome.
-API: OpenWeatherMap.
-License
+## Future Enhancements
+
+- Auto-Complete Feature: Suggest cities as the user types in the search bar.
+- Extended Forecast: Display a 5-day weather forecast.
+- Geolocation: Automatically detect the user's location and display the weather.
+  
+## Credits
+
+- Background Images: Sourced from various photographers on Unsplash.
+- Icons: FontAwesome.
+- API: OpenWeatherMap.
+  
+##License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
