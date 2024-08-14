@@ -25,7 +25,7 @@ This Weather Application provides real-time weather information for cities aroun
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/weather-application.git
+   git clone https://github.com/Gowtham1215/weather-application.git
    cd weather-application
 Open index.html:
 Open the index.html file in your web browser.
