@@ -1,5 +1,7 @@
 # 30-Days-30-JS-Projects
 
+# Day 1:
+
 # Weather Application
 
 This Weather Application provides real-time weather information for cities around the world. It fetches data from the OpenWeatherMap API and dynamically updates the UI with the latest weather details based on user input.
